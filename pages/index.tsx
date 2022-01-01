@@ -30,13 +30,10 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Easy Frontend!</a>
         </h1>
-
         <p className={styles.description}>
           Get started by editing <code className={styles.code}>pages/index.tsx</code>
         </p>
-
         <button onClick={gotoDetailPage}>Go to post detail page</button>
-
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
@@ -61,12 +58,11 @@ const Home: NextPage = () => {
             <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
           </a>
         </div>
-
         <div style={{ marginTop: '2000px' }}></div>
-
         <Link href="/about">
           <a>Go to about</a>
-        </Link>s
+        </Link>
+        s
       </main>
 
       <footer className={styles.footer}>
