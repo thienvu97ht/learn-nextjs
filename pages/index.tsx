@@ -66,7 +66,7 @@ const Home: NextPage = () => {
 
         <Link href="/about">
           <a>Go to about</a>
-        </Link>
+        </Link>s
       </main>
 
       <footer className={styles.footer}>
